@@ -15,6 +15,8 @@
 		3DE3C7E0256E0F570050C12A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE3C7DE256E0F570050C12A /* LaunchScreen.storyboard */; };
 		3DE3C7EB256E0F570050C12A /* haloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3C7EA256E0F570050C12A /* haloTests.swift */; };
 		3DE3C7F6256E0F570050C12A /* haloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3C7F5256E0F570050C12A /* haloUITests.swift */; };
+		3DE3C807256E10230050C12A /* personajes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3C806256E10230050C12A /* personajes.swift */; };
+		3DE3C809256E107D0050C12A /* CeldaPersonajesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3C808256E107D0050C12A /* CeldaPersonajesController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3DE3C7F1256E0F570050C12A /* haloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = haloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE3C7F5256E0F570050C12A /* haloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = haloUITests.swift; sourceTree = "<group>"; };
 		3DE3C7F7256E0F570050C12A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DE3C806256E10230050C12A /* personajes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personajes.swift; sourceTree = "<group>"; };
+		3DE3C808256E107D0050C12A /* CeldaPersonajesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaPersonajesController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +103,12 @@
 		3DE3C7D2256E0F4E0050C12A /* halo */ = {
 			isa = PBXGroup;
 			children = (
-				3DE3C7D3256E0F4E0050C12A /* AppDelegate.swift */,
-				3DE3C7D5256E0F4E0050C12A /* SceneDelegate.swift */,
-				3DE3C7D7256E0F4E0050C12A /* ViewController.swift */,
-				3DE3C7D9256E0F4F0050C12A /* Main.storyboard */,
+				3DE3C805256E0FE30050C12A /* storyboards */,
+				3DE3C804256E0FB20050C12A /* controllers */,
+				3DE3C803256E0F880050C12A /* models */,
 				3DE3C7DC256E0F570050C12A /* Assets.xcassets */,
-				3DE3C7DE256E0F570050C12A /* LaunchScreen.storyboard */,
+				3DE3C7D5256E0F4E0050C12A /* SceneDelegate.swift */,
+				3DE3C7D3256E0F4E0050C12A /* AppDelegate.swift */,
 				3DE3C7E1256E0F570050C12A /* Info.plist */,
 			);
 			path = halo;
@@ -126,6 +130,32 @@
 				3DE3C7F7256E0F570050C12A /* Info.plist */,
 			);
 			path = haloUITests;
+			sourceTree = "<group>";
+		};
+		3DE3C803256E0F880050C12A /* models */ = {
+			isa = PBXGroup;
+			children = (
+				3DE3C806256E10230050C12A /* personajes.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		3DE3C804256E0FB20050C12A /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3DE3C7D7256E0F4E0050C12A /* ViewController.swift */,
+				3DE3C808256E107D0050C12A /* CeldaPersonajesController.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		3DE3C805256E0FE30050C12A /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3DE3C7DE256E0F570050C12A /* LaunchScreen.storyboard */,
+				3DE3C7D9256E0F4F0050C12A /* Main.storyboard */,
+			);
+			name = storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +290,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DE3C7D8256E0F4E0050C12A /* ViewController.swift in Sources */,
+				3DE3C809256E107D0050C12A /* CeldaPersonajesController.swift in Sources */,
+				3DE3C807256E10230050C12A /* personajes.swift in Sources */,
 				3DE3C7D4256E0F4E0050C12A /* AppDelegate.swift in Sources */,
 				3DE3C7D6256E0F4E0050C12A /* SceneDelegate.swift in Sources */,
 			);
